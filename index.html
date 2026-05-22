@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter a city Name" id="cityInput">
+            <button id="searchBtn">
+                <img src="weather-app-img/images/search.png" alt="Search">
+            </button>
+        </div>
+        <div class="info">
+            <img src="weather-app-img/images/clouds.png" alt="Weather" id="weatherImg">
+            <h1 class="temperature">2°C</h1>
+            <h2 class="city">CITY</h2>
+        </div>
+        <div class="footer">
+            <div class="sub-container">
+                <img src="weather-app-img/images/humidity.png" alt="Humidity">
+                <div class="details">
+                    <h3 class="humidity-value">44%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="sub-container">
+                <img src="weather-app-img/images/wind.png" alt="Wind Speed">
+                <div class="details">
+                    <h3 class="windspeed-value">15 km/h</h3>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
